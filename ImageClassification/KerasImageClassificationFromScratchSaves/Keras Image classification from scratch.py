@@ -1,66 +1,8 @@
-"""
-Title: [KerasCV] Image classification from scratch
-Author: [fchollet](https://twitter.com/fchollet), updated by [Suvaditya Mukherjee](https://twitter.com/halcyonrayes)
-Date created: 2020/04/27
-Last modified: 2023/06/17
-Description: Training an image classifier from scratch on the Kaggle Cats vs Dogs dataset.
-Accelerator: GPU
-"""
-"""
-## Introduction
-
-This example shows how to do image classification from scratch, starting from JPEG
-image files on disk, without leveraging pre-trained weights or a pre-made Keras
-Application model. We demonstrate the workflow on the Kaggle Cats vs Dogs binary
- classification dataset.
-
-We use the `image_dataset_from_directory` utility to generate the datasets, and
-we use Keras image preprocessing layers for image standardization and data augmentation.
-"""
-
-"""
-## Setup
-"""
-
+import matplotlib.pyplot as plt 
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 import keras_cv
-
-"""
-## Load the data: the Cats vs Dogs dataset
-
-### Raw data download
-
-First, let's download the 786M ZIP archive of the raw data:
-"""
-
-"""shell
-curl -O https://download.microsoft.com/download/3/E/1/3E1C3F21-ECDB-4869-8368-6DEBA77B919F/kagglecatsanddogs_5340.zip
-"""
-
-"""shell
-unzip -q kagglecatsanddogs_5340.zip
-ls
-"""
-
-"""
-Now we have a `PetImages` folder which contain two subfolders, `Cat` and `Dog`. Each
- subfolder contains image files for each category.
-"""
-
-"""shell
-ls PetImages
-"""
-
-"""
-### Filter out corrupted images
-
-When working with lots of real-world image data, corrupted images are a common
-occurence. Let's filter out badly-encoded images that do not feature the string "JFIF"
-in their header.
-"""
-
 import os
 
 num_skipped = 0
@@ -328,10 +270,10 @@ We get to >90% validation accuracy after training for 25 epochs on the full data
 
 Note that data augmentation and dropout are inactive at inference time.
 """
-import matplotlib.pyplot as plt 
 
 img = keras.utils.load_img("PetImages/Cat/6779.jpg", target_size=image_size)
 plt.imshow(img)
+plt.show()
 
 img_array = keras.utils.img_to_array(img)
 img_array = tf.expand_dims(img_array, 0)  # Create batch axis
