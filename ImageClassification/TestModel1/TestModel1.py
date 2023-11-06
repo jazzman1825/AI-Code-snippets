@@ -16,16 +16,16 @@ train_ds, val_ds = tf.keras.utils.image_dataset_from_directory(
     image_size=image_size,
     batch_size=batch_size,
 )
-
-""" plt.figure(figsize=(10, 10))
+""" 
+plt.figure(figsize=(10, 10))
 for images, labels in train_ds.take(1):
     for i in range(9):
         ax = plt.subplot(3, 3, i + 1)
         plt.imshow(images[i].numpy().astype("uint8"))
         plt.title(int(labels[i]))
-        plt.axis("off") """
-#plt.show() #showing the images, should be put in another thread probably?
-
+        plt.axis("off")
+plt.show() #showing the images, should be put in another thread probably?
+ """
 #Adding random flips and rotation to the pictures to provide better learning 
 data_augmentation = keras.Sequential(
     [
@@ -54,9 +54,9 @@ def make_model(input_shape, num_classes):
 model = make_model(input_shape=image_size + (3,), num_classes=2)
 keras.utils.plot_model(model, show_shapes=True) #Making the .png of a model
 
-epochs = 50
+epochs = 25
 
-""" callbacks = [
+callbacks = [
     keras.callbacks.ModelCheckpoint("TestModel_at_{epoch}.keras"),
 ]
 model.compile(
@@ -64,9 +64,32 @@ model.compile(
     loss = "binary_crossentropy",
     metrics=["accuracy"],
 )
-model.fit(
+history = model.fit(
     train_ds,
     epochs=epochs,
     callbacks=callbacks,
     validation_data=val_ds
-) """
+)
+
+history_dict = history.history
+loss_values = history_dict["loss"]
+val_loss_values = history_dict["val_loss"]
+epochs = range(1, len(loss_values) + 1)
+plt.plot(epochs, loss_values, "bo", label="Training loss")
+plt.plot(epochs, val_loss_values, "b", label="Validation loss")
+plt.title("Training and validation loss")
+plt.xlabel("Epochs")
+plt.ylabel("Loss")
+plt.legend()
+plt.show()
+
+plt.clf() #matplotlib figure clearing
+acc = history_dict["accuracy"]
+val_acc = history_dict["val_accuracy"]
+plt.plot(epochs, acc, "bo", label="Training acc")
+plt.plot(epochs, val_acc, "b", label="Validation acc")
+plt.title("Training and validation accuracy")
+plt.xlabel("Epochs")
+plt.ylabel("Accuracy")
+plt.legend()
+plt.show()

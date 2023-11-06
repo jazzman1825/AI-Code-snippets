@@ -68,7 +68,7 @@ plt.ylabel("Accuracy")
 plt.legend()
 plt.show()
 
-model = keras.Sequential([
+""" model = keras.Sequential([
     layers.Dense(16, activation="relu"),
     layers.Dense(16, activation="relu"),
     layers.Dense(1, activation="sigmoid")
@@ -77,7 +77,7 @@ model.compile(optimizer="rmsprop",
               loss="binary_crossentropy",
               metrics=["accuracy"])
 model.fit(x_train, y_train, epochs=4, batch_size=512)
-results = model.evaluate(x_test, y_test)
+results = model.evaluate(x_test, y_test) """
 
 """ The following experiments will help convince you that the architecture choices you’ve
 made are all fairly reasonable, although there’s still room for improvement:

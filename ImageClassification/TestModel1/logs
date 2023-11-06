@@ -1,0 +1,555 @@
+Epoch 1/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 2:11 - loss: 19.7617 - accuracy: 0.5065Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:00 - loss: 17.6702 - accuracy: 0.5111Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 1:30 - loss: 14.1572 - accuracy: 0.5253Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 1:25 - loss: 13.7312 - accuracy: 0.5271Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:20 - loss: 13.3311 - accuracy: 0.5274Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:19 - loss: 13.2033 - accuracy: 0.5271Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 9.1541 - accuracy: 0.5290Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 268s 2s/step - loss: 9.1541 - accuracy: 0.5290 - val_loss: 0.6850 - val_accuracy: 0.5239
+Epoch 2/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 2:40 - loss: 0.6824 - accuracy: 0.5356Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:24 - loss: 0.6823 - accuracy: 0.5388Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 1:46 - loss: 0.6827 - accuracy: 0.5390Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 1:40 - loss: 0.6827 - accuracy: 0.5396Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:34 - loss: 0.6831 - accuracy: 0.5385Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:32 - loss: 0.6832 - accuracy: 0.5387Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.6836 - accuracy: 0.5402Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 293s 2s/step - loss: 0.6836 - accuracy: 0.5402 - val_loss: 0.6845 - val_accuracy: 0.5600
+Epoch 3/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 2:41 - loss: 0.6830 - accuracy: 0.5487Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:23 - loss: 0.6821 - accuracy: 0.5493Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 1:44 - loss: 0.6815 - accuracy: 0.5537Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 1:38 - loss: 0.6816 - accuracy: 0.5531Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:32 - loss: 0.6817 - accuracy: 0.5537Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:30 - loss: 0.6819 - accuracy: 0.5529Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.6814 - accuracy: 0.5523Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 286s 2s/step - loss: 0.6814 - accuracy: 0.5523 - val_loss: 0.6781 - val_accuracy: 0.5748
+Epoch 4/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 2:33 - loss: 0.6836 - accuracy: 0.5540Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:18 - loss: 0.6829 - accuracy: 0.5577Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 1:42 - loss: 0.6821 - accuracy: 0.5573Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 1:36 - loss: 0.6826 - accuracy: 0.5564Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:30 - loss: 0.6823 - accuracy: 0.5565Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:28 - loss: 0.6823 - accuracy: 0.5560Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.6817 - accuracy: 0.5546Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 285s 2s/step - loss: 0.6817 - accuracy: 0.5546 - val_loss: 0.6755 - val_accuracy: 0.5820
+Epoch 5/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 2:36 - loss: 0.6810 - accuracy: 0.5556Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:20 - loss: 0.6806 - accuracy: 0.5559Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 1:44 - loss: 0.6805 - accuracy: 0.5558Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 1:38 - loss: 0.6804 - accuracy: 0.5562Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:32 - loss: 0.6809 - accuracy: 0.5541Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:30 - loss: 0.6809 - accuracy: 0.5543Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.6791 - accuracy: 0.5579Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 289s 2s/step - loss: 0.6791 - accuracy: 0.5579 - val_loss: 0.6733 - val_accuracy: 0.5713
+Epoch 6/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 2:35 - loss: 0.6775 - accuracy: 0.5631Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:19 - loss: 0.6778 - accuracy: 0.5612Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 1:42 - loss: 0.6771 - accuracy: 0.5644Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 1:36 - loss: 0.6765 - accuracy: 0.5654Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:31 - loss: 0.6774 - accuracy: 0.5661Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:29 - loss: 0.6775 - accuracy: 0.5657Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.6764 - accuracy: 0.5687Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 292s 2s/step - loss: 0.6764 - accuracy: 0.5687 - val_loss: 0.6711 - val_accuracy: 0.5856
+Epoch 7/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 2:40 - loss: 0.6754 - accuracy: 0.5653Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:23 - loss: 0.6753 - accuracy: 0.5655Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 1:47 - loss: 0.6743 - accuracy: 0.5719Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 1:42 - loss: 0.6744 - accuracy: 0.5715Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:36 - loss: 0.6749 - accuracy: 0.5699Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:34 - loss: 0.6748 - accuracy: 0.5697Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.6757 - accuracy: 0.5676Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 324s 2s/step - loss: 0.6757 - accuracy: 0.5676 - val_loss: 0.6748 - val_accuracy: 0.5662
+Epoch 8/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:05 - loss: 0.6775 - accuracy: 0.5650Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:45 - loss: 0.6782 - accuracy: 0.5641Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:04 - loss: 0.6780 - accuracy: 0.5651Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 1:57 - loss: 0.6785 - accuracy: 0.5648Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:50 - loss: 0.6784 - accuracy: 0.5643Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:48 - loss: 0.6784 - accuracy: 0.5640Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.6782 - accuracy: 0.5650Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 359s 2s/step - loss: 0.6782 - accuracy: 0.5650 - val_loss: 0.6742 - val_accuracy: 0.5705
+Epoch 9/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:21 - loss: 0.6769 - accuracy: 0.5803Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 3:00 - loss: 0.6764 - accuracy: 0.5797Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:15 - loss: 0.6731 - accuracy: 0.5830Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:08 - loss: 0.6730 - accuracy: 0.5833Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 2:00 - loss: 0.6723 - accuracy: 0.5835Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:58 - loss: 0.6721 - accuracy: 0.5841Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.6694 - accuracy: 0.5896Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 386s 3s/step - loss: 0.6694 - accuracy: 0.5896 - val_loss: 0.6591 - val_accuracy: 0.6057
+Epoch 10/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:16 - loss: 0.6633 - accuracy: 0.6147Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:57 - loss: 0.6622 - accuracy: 0.6153Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:11 - loss: 0.6624 - accuracy: 0.6174Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:04 - loss: 0.6627 - accuracy: 0.6166Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:56 - loss: 0.6628 - accuracy: 0.6163Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:54 - loss: 0.6629 - accuracy: 0.6157Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.6636 - accuracy: 0.6098Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 378s 3s/step - loss: 0.6636 - accuracy: 0.6098 - val_loss: 0.6567 - val_accuracy: 0.6002
+Epoch 11/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:24 - loss: 0.6645 - accuracy: 0.5970Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 3:03 - loss: 0.6653 - accuracy: 0.5946Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:15 - loss: 0.6635 - accuracy: 0.5973Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:07 - loss: 0.6649 - accuracy: 0.5970Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:59 - loss: 0.6644 - accuracy: 0.5975Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:56 - loss: 0.6643 - accuracy: 0.5980Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.6628 - accuracy: 0.6010Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 366s 2s/step - loss: 0.6628 - accuracy: 0.6010 - val_loss: 0.6777 - val_accuracy: 0.5630
+Epoch 12/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:18 - loss: 0.6652 - accuracy: 0.5887Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:57 - loss: 0.6647 - accuracy: 0.5925Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:09 - loss: 0.6611 - accuracy: 0.5968Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:01 - loss: 0.6610 - accuracy: 0.5971Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:54 - loss: 0.6610 - accuracy: 0.5970Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:52 - loss: 0.6607 - accuracy: 0.5976Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.6552 - accuracy: 0.6063Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 361s 2s/step - loss: 0.6552 - accuracy: 0.6063 - val_loss: 0.6275 - val_accuracy: 0.6534
+Epoch 13/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:31 - loss: 0.6493 - accuracy: 0.6250Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 3:06 - loss: 0.6449 - accuracy: 0.6301Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:15 - loss: 0.6409 - accuracy: 0.6337Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:07 - loss: 0.6423 - accuracy: 0.6329Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:59 - loss: 0.6418 - accuracy: 0.6334Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:56 - loss: 0.6420 - accuracy: 0.6334Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.6434 - accuracy: 0.6309Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 362s 2s/step - loss: 0.6434 - accuracy: 0.6309 - val_loss: 0.6512 - val_accuracy: 0.6427
+Epoch 14/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:19 - loss: 0.6406 - accuracy: 0.6317Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 3:00 - loss: 0.6401 - accuracy: 0.6321Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:14 - loss: 0.6398 - accuracy: 0.6304Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:06 - loss: 0.6404 - accuracy: 0.6301Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:58 - loss: 0.6407 - accuracy: 0.6295Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:56 - loss: 0.6410 - accuracy: 0.6292Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.6402 - accuracy: 0.6312Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 370s 3s/step - loss: 0.6402 - accuracy: 0.6312 - val_loss: 0.6114 - val_accuracy: 0.6519
+Epoch 15/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 2:57 - loss: 0.6246 - accuracy: 0.6613Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:43 - loss: 0.6258 - accuracy: 0.6574Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:06 - loss: 0.6337 - accuracy: 0.6447Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 1:59 - loss: 0.6340 - accuracy: 0.6434Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:52 - loss: 0.6346 - accuracy: 0.6422Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:49 - loss: 0.6345 - accuracy: 0.6432Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.6349 - accuracy: 0.6455Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 355s 2s/step - loss: 0.6349 - accuracy: 0.6455 - val_loss: 0.6368 - val_accuracy: 0.6269
+Epoch 16/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:28 - loss: 0.6207 - accuracy: 0.6615Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 3:05 - loss: 0.6210 - accuracy: 0.6626Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:18 - loss: 0.6166 - accuracy: 0.6675Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:10 - loss: 0.6168 - accuracy: 0.6683Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 2:02 - loss: 0.6171 - accuracy: 0.6690Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:59 - loss: 0.6168 - accuracy: 0.6695Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.6151 - accuracy: 0.6726Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 390s 3s/step - loss: 0.6151 - accuracy: 0.6726 - val_loss: 0.6194 - val_accuracy: 0.6792
+Epoch 17/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:30 - loss: 0.6203 - accuracy: 0.6733Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 3:09 - loss: 0.6206 - accuracy: 0.6720Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:19 - loss: 0.6176 - accuracy: 0.6757Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:11 - loss: 0.6173 - accuracy: 0.6758Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 2:04 - loss: 0.6162 - accuracy: 0.6771Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 2:02 - loss: 0.6161 - accuracy: 0.6772Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.6096 - accuracy: 0.6830Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 390s 3s/step - loss: 0.6096 - accuracy: 0.6830 - val_loss: 0.5813 - val_accuracy: 0.7187
+Epoch 18/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:42 - loss: 0.5884 - accuracy: 0.7016Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 3:17 - loss: 0.5868 - accuracy: 0.7023Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:21 - loss: 0.5905 - accuracy: 0.6985Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:13 - loss: 0.5906 - accuracy: 0.6982Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 2:05 - loss: 0.5906 - accuracy: 0.6983Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 2:03 - loss: 0.5907 - accuracy: 0.6979Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.5874 - accuracy: 0.7010Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 399s 3s/step - loss: 0.5874 - accuracy: 0.7010 - val_loss: 0.5455 - val_accuracy: 0.7367
+Epoch 19/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:38 - loss: 0.6028 - accuracy: 0.6936Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 3:15 - loss: 0.6024 - accuracy: 0.6940Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:25 - loss: 0.5997 - accuracy: 0.6931Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:17 - loss: 0.5981 - accuracy: 0.6947Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 2:09 - loss: 0.5994 - accuracy: 0.6943Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 2:06 - loss: 0.5991 - accuracy: 0.6948Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.5933 - accuracy: 0.6985Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 402s 3s/step - loss: 0.5933 - accuracy: 0.6985 - val_loss: 0.5745 - val_accuracy: 0.6939
+Epoch 20/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:34 - loss: 0.5848 - accuracy: 0.7028Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 3:12 - loss: 0.5825 - accuracy: 0.7056Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:17 - loss: 0.5789 - accuracy: 0.7044Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:09 - loss: 0.5791 - accuracy: 0.7055Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 2:01 - loss: 0.5783 - accuracy: 0.7070Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:59 - loss: 0.5785 - accuracy: 0.7074Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.5779 - accuracy: 0.7095Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 362s 2s/step - loss: 0.5779 - accuracy: 0.7095 - val_loss: 0.5410 - val_accuracy: 0.7454
+Epoch 21/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 2:47 - loss: 0.5582 - accuracy: 0.7201Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:31 - loss: 0.5586 - accuracy: 0.7193Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 1:53 - loss: 0.5597 - accuracy: 0.7190Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 1:46 - loss: 0.5599 - accuracy: 0.7188Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:40 - loss: 0.5595 - accuracy: 0.7201Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:39 - loss: 0.5591 - accuracy: 0.7206Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.5579 - accuracy: 0.7234Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 344s 2s/step - loss: 0.5579 - accuracy: 0.7234 - val_loss: 0.5210 - val_accuracy: 0.7475
+Epoch 22/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:17 - loss: 0.5508 - accuracy: 0.7351Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 3:00 - loss: 0.5480 - accuracy: 0.7351Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:15 - loss: 0.5422 - accuracy: 0.7373Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:07 - loss: 0.5422 - accuracy: 0.7368Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:59 - loss: 0.5415 - accuracy: 0.7366Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:57 - loss: 0.5413 - accuracy: 0.7367Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.5350 - accuracy: 0.7440Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 365s 2s/step - loss: 0.5350 - accuracy: 0.7440 - val_loss: 0.5204 - val_accuracy: 0.7460
+Epoch 23/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:16 - loss: 0.5345 - accuracy: 0.7453Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:56 - loss: 0.5326 - accuracy: 0.7465Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:09 - loss: 0.5324 - accuracy: 0.7471Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:02 - loss: 0.5322 - accuracy: 0.7469Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:55 - loss: 0.5306 - accuracy: 0.7473Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:52 - loss: 0.5302 - accuracy: 0.7478Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.5302 - accuracy: 0.7454Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 355s 2s/step - loss: 0.5302 - accuracy: 0.7454 - val_loss: 0.4947 - val_accuracy: 0.7595
+Epoch 24/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 2:39 - loss: 0.5183 - accuracy: 0.7536Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:25 - loss: 0.5216 - accuracy: 0.7518Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 1:47 - loss: 0.5234 - accuracy: 0.7504Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 1:41 - loss: 0.5236 - accuracy: 0.7505Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:35 - loss: 0.5217 - accuracy: 0.7505Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:33 - loss: 0.5218 - accuracy: 0.7502Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.5169 - accuracy: 0.7530Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 304s 2s/step - loss: 0.5169 - accuracy: 0.7530 - val_loss: 0.6330 - val_accuracy: 0.6982
+Epoch 25/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 2:52 - loss: 0.5164 - accuracy: 0.7490Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:36 - loss: 0.5155 - accuracy: 0.7514Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 1:57 - loss: 0.5109 - accuracy: 0.7558Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 1:50 - loss: 0.5094 - accuracy: 0.7561Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:44 - loss: 0.5076 - accuracy: 0.7576Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:42 - loss: 0.5069 - accuracy: 0.7580Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.5007 - accuracy: 0.7620Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 368s 2s/step - loss: 0.5007 - accuracy: 0.7620 - val_loss: 0.4904 - val_accuracy: 0.7819
+Epoch 26/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:17 - loss: 0.4769 - accuracy: 0.7790Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:57 - loss: 0.4781 - accuracy: 0.7790Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:10 - loss: 0.4758 - accuracy: 0.7786Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:03 - loss: 0.4765 - accuracy: 0.7775Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:56 - loss: 0.4765 - accuracy: 0.7782Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:54 - loss: 0.4771 - accuracy: 0.7779Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.4765 - accuracy: 0.7818Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 366s 2s/step - loss: 0.4765 - accuracy: 0.7818 - val_loss: 0.4642 - val_accuracy: 0.7984
+Epoch 27/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:25 - loss: 0.4712 - accuracy: 0.7877Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 3:03 - loss: 0.4709 - accuracy: 0.7870Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:14 - loss: 0.4733 - accuracy: 0.7835Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:06 - loss: 0.4725 - accuracy: 0.7831Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:58 - loss: 0.4725 - accuracy: 0.7830Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:56 - loss: 0.4718 - accuracy: 0.7838Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.4624 - accuracy: 0.7878Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 379s 3s/step - loss: 0.4624 - accuracy: 0.7878 - val_loss: 0.4270 - val_accuracy: 0.8061
+Epoch 28/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:17 - loss: 0.4581 - accuracy: 0.7850Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:57 - loss: 0.4578 - accuracy: 0.7838Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:10 - loss: 0.4595 - accuracy: 0.7835Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:03 - loss: 0.4605 - accuracy: 0.7836Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:55 - loss: 0.4591 - accuracy: 0.7847Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:53 - loss: 0.4582 - accuracy: 0.7853Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.4536 - accuracy: 0.7907Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 365s 2s/step - loss: 0.4536 - accuracy: 0.7907 - val_loss: 0.4237 - val_accuracy: 0.8095
+Epoch 29/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:13 - loss: 0.4470 - accuracy: 0.8000Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:55 - loss: 0.4483 - accuracy: 0.7993Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:10 - loss: 0.4526 - accuracy: 0.7944Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:03 - loss: 0.4522 - accuracy: 0.7937Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:56 - loss: 0.4547 - accuracy: 0.7924Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:53 - loss: 0.4542 - accuracy: 0.7929Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.4504 - accuracy: 0.7949Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 367s 2s/step - loss: 0.4504 - accuracy: 0.7949 - val_loss: 0.4399 - val_accuracy: 0.8003
+Epoch 30/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:27 - loss: 0.4403 - accuracy: 0.8022Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 3:08 - loss: 0.4404 - accuracy: 0.8022Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:17 - loss: 0.4410 - accuracy: 0.8013Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:09 - loss: 0.4401 - accuracy: 0.8013Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 2:01 - loss: 0.4400 - accuracy: 0.8017Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:59 - loss: 0.4396 - accuracy: 0.8013Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.4353 - accuracy: 0.8040Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 382s 3s/step - loss: 0.4353 - accuracy: 0.8040 - val_loss: 0.4023 - val_accuracy: 0.8212
+Epoch 31/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:31 - loss: 0.4234 - accuracy: 0.8097Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 3:07 - loss: 0.4220 - accuracy: 0.8110Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:16 - loss: 0.4237 - accuracy: 0.8092Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:08 - loss: 0.4248 - accuracy: 0.8088Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 2:01 - loss: 0.4268 - accuracy: 0.8076Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:59 - loss: 0.4275 - accuracy: 0.8073Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.4842 - accuracy: 0.7732Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 372s 3s/step - loss: 0.4842 - accuracy: 0.7732 - val_loss: 0.5869 - val_accuracy: 0.6933
+Epoch 32/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:16 - loss: 0.5677 - accuracy: 0.7156Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:57 - loss: 0.5601 - accuracy: 0.7196Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:09 - loss: 0.5537 - accuracy: 0.7254Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:01 - loss: 0.5548 - accuracy: 0.7245Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:54 - loss: 0.5550 - accuracy: 0.7250Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:52 - loss: 0.5553 - accuracy: 0.7247Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.5414 - accuracy: 0.7366Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 356s 2s/step - loss: 0.5414 - accuracy: 0.7366 - val_loss: 0.4456 - val_accuracy: 0.7965
+Epoch 33/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:20 - loss: 0.4589 - accuracy: 0.7882Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:57 - loss: 0.4546 - accuracy: 0.7899Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:09 - loss: 0.4560 - accuracy: 0.7889Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:02 - loss: 0.4545 - accuracy: 0.7903Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:55 - loss: 0.4546 - accuracy: 0.7900Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:53 - loss: 0.4541 - accuracy: 0.7903Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.4526 - accuracy: 0.7924Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 357s 2s/step - loss: 0.4526 - accuracy: 0.7924 - val_loss: 0.4865 - val_accuracy: 0.7907
+Epoch 34/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:25 - loss: 0.4433 - accuracy: 0.8040Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 3:03 - loss: 0.4426 - accuracy: 0.8024Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:14 - loss: 0.4356 - accuracy: 0.8056Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:07 - loss: 0.4329 - accuracy: 0.8065Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 2:00 - loss: 0.4330 - accuracy: 0.8067Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:57 - loss: 0.4329 - accuracy: 0.8069Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.4339 - accuracy: 0.8073Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 375s 3s/step - loss: 0.4339 - accuracy: 0.8073 - val_loss: 0.4303 - val_accuracy: 0.8146
+Epoch 35/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:19 - loss: 0.4302 - accuracy: 0.8028Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:59 - loss: 0.4297 - accuracy: 0.8039Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:14 - loss: 0.4314 - accuracy: 0.8021Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:06 - loss: 0.4309 - accuracy: 0.8024Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:59 - loss: 0.4302 - accuracy: 0.8033Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:56 - loss: 0.4301 - accuracy: 0.8033Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.4227 - accuracy: 0.8100Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 366s 2s/step - loss: 0.4227 - accuracy: 0.8100 - val_loss: 0.3750 - val_accuracy: 0.8385
+Epoch 36/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:11 - loss: 0.4059 - accuracy: 0.8149Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:51 - loss: 0.4049 - accuracy: 0.8146Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:06 - loss: 0.4127 - accuracy: 0.8117Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:00 - loss: 0.4117 - accuracy: 0.8119Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:53 - loss: 0.4138 - accuracy: 0.8116Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:51 - loss: 0.4137 - accuracy: 0.8116Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.4052 - accuracy: 0.8180Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 364s 2s/step - loss: 0.4052 - accuracy: 0.8180 - val_loss: 0.3702 - val_accuracy: 0.8343
+Epoch 37/60
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+ 65/147 [============>.................] - ETA: 3:19 - loss: 0.3866 - accuracy: 0.8244Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+ 73/147 [=============>................] - ETA: 2:58 - loss: 0.3865 - accuracy: 0.8242Warning: unknown JFIF revision number 0.00
+ 92/147 [=================>............] - ETA: 2:14 - loss: 0.3892 - accuracy: 0.8252Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+ 95/147 [==================>...........] - ETA: 2:06 - loss: 0.3898 - accuracy: 0.8247Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+ 98/147 [===================>..........] - ETA: 1:58 - loss: 0.3907 - accuracy: 0.8238Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+ 99/147 [===================>..........] - ETA: 1:56 - loss: 0.3903 - accuracy: 0.8239Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+147/147 [==============================] - ETA: 0s - loss: 0.3976 - accuracy: 0.8206Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+147/147 [==============================] - 370s 3s/step - loss: 0.3976 - accuracy: 0.8206 - val_loss: 0.4296 - val_accuracy: 0.8138
