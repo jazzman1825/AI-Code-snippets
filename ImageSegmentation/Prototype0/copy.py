@@ -161,7 +161,7 @@ sample_weights[:,:,1]=0.9
 history = model.fit(
     syotekuva_tensori[opetusjoukko],vastekuva_tensori[opetusjoukko],
     validation_data=(syotekuva_tensori[validointijoukko],vastekuva_tensori[validointijoukko]),
-    batch_size=16, epochs=2,
+    batch_size=16, epochs=20,
     callbacks=callbacks_list
 #    sample_weight=sample_weights
     )
