@@ -16,7 +16,7 @@ train_ds, val_ds = tf.keras.utils.image_dataset_from_directory(
     image_size=image_size,
     batch_size=batch_size,
 )
-""" 
+"""
 plt.figure(figsize=(10, 10))
 for images, labels in train_ds.take(1):
     for i in range(9):
@@ -31,6 +31,7 @@ data_augmentation = keras.Sequential(
     [
         layers.RandomFlip("horizontal"),
         layers.RandomRotation(0.1),
+        layers.RandomZoom(0.2)
     ]
 )
 
@@ -54,7 +55,7 @@ def make_model(input_shape, num_classes):
 model = make_model(input_shape=image_size + (3,), num_classes=2)
 keras.utils.plot_model(model, show_shapes=True) #Making the .png of a model
 
-epochs = 25
+epochs = 200
 
 callbacks = [
     keras.callbacks.ModelCheckpoint("TestModel_at_{epoch}.keras"),
