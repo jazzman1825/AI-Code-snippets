@@ -6,10 +6,10 @@ import pickle
 
 from tensorflow import keras
 
-opetus_ja_vastetiedot=pickle.load( open( "ImageSegmentation/Data/opetustiedot.p", "rb" ) )
+opetus_ja_vastetiedot = pickle.load( open( "ImageSegmentation/Data/opetustiedot.p", "rb" ) )
 
 images = opetus_ja_vastetiedot[0]
-masks =  opetus_ja_vastetiedot[1]
+masks = opetus_ja_vastetiedot[1]
 
 #Scaling
 images = images / 255 
@@ -27,58 +27,58 @@ IMG_CHANNELS = image_shape[2]
 
 
 # I really want to rewrite this.
-train_ds=[]
-val_ds=[]
-for i in range(len(images)): # Why in range(200)??????
+train_ds = []
+val_ds = []
+for i in range(len(images)):
     if np.random.rand()<0.2:
         train_ds.append(i)
-        if np.random.rand()<0.0:
+        if np.random.rand()<0.0:  #???
             masks[i,50:60,50:60]=1
     else:
         val_ds.append(i)
 
-traind_ds=np.array(train_ds)
-val_ds=np.array(val_ds)
+traind_ds = np.array(train_ds)
+val_ds = np.array(val_ds)
 
 # Model def here 
 def make_model(input_shape, num_classes):
     inputs = keras.Input(shape=input_shape)
 
     # Contracting Path
-    x =keras.layers.Conv2D(64, (3, 3), activation='relu', padding='same')(inputs)
+    x = keras.layers.Conv2D(64, (3, 3), activation='relu', padding='same')(inputs)
     c1_residue = x
-    x =keras.layers.MaxPooling2D((2, 2))(x)
+    x = keras.layers.MaxPooling2D((2, 2))(x)
     
-    x =keras.layers.Conv2D(128, (3, 3), activation='relu', padding='same')(x)
+    x = keras.layers.Conv2D(128, (3, 3), activation='relu', padding='same')(x)
     c2_residue = x
-    x =keras.layers.MaxPooling2D((2, 2))(x)
+    x = keras.layers.MaxPooling2D((2, 2))(x)
 
-    x =keras.layers.Conv2D(256, (3, 3), activation='relu', padding='same')(x)
+    x = keras.layers.Conv2D(256, (3, 3), activation='relu', padding='same')(x)
     c3_residue = x
-    x =keras.layers.MaxPooling2D((2, 2))(x)
+    x = keras.layers.MaxPooling2D((2, 2))(x)
 
-    x =keras.layers.Conv2D(512, (3, 3), activation='relu', padding='same')(x)
+    x = keras.layers.Conv2D(512, (3, 3), activation='relu', padding='same')(x)
     c4_residue = x
-    x =keras.layers.MaxPooling2D((2, 2))(x)
+    x = keras.layers.MaxPooling2D((2, 2))(x)
 
-    x =keras.layers.Conv2D(1024, (3, 3), activation='relu', padding='same')(x)
+    x = keras.layers.Conv2D(1024, (3, 3), activation='relu', padding='same')(x)
     
     # Expansive Path    
-    x =keras.layers.Conv2DTranspose(512, (2, 2), strides=(2, 2), padding='same')(x)
-    x =keras.layers.Concatenate()([x, c4_residue])
-    x =keras.layers.Conv2D(512, (3, 3), activation='relu', padding='same')(x)
+    x = keras.layers.Conv2DTranspose(512, (2, 2), strides=(2, 2), padding='same')(x)
+    x = keras.layers.Concatenate()([x, c4_residue])
+    x = keras.layers.Conv2D(512, (3, 3), activation='relu', padding='same')(x)
     
-    x =keras.layers.Conv2DTranspose(256, (2, 2), strides=(2, 2), padding='same')(x)
-    x =keras.layers.Concatenate()([x, c3_residue])
-    c7 =keras.layers.Conv2D(256, (3, 3), activation='relu', padding='same')(x)
+    x = keras.layers.Conv2DTranspose(256, (2, 2), strides=(2, 2), padding='same')(x)
+    x = keras.layers.Concatenate()([x, c3_residue])
+    x = keras.layers.Conv2D(256, (3, 3), activation='relu', padding='same')(x)
    
-    x =keras.layers.Conv2DTranspose(128, (2, 2), strides=(2, 2), padding='same')(x)
-    x =keras.layers.Concatenate()([x, c2_residue])
-    x =keras.layers.Conv2D(128, (3, 3), activation='relu', padding='same')(x)
+    x = keras.layers.Conv2DTranspose(128, (2, 2), strides=(2, 2), padding='same')(x)
+    x = keras.layers.Concatenate()([x, c2_residue])
+    x = keras.layers.Conv2D(128, (3, 3), activation='relu', padding='same')(x)
    
-    x =keras.layers.Conv2DTranspose(64, (2, 2), strides=(2, 2), padding='same')(x)
-    x =keras.layers.Concatenate()([x, c1_residue])
-    x =keras.layers.Conv2D(64, (3, 3), activation='relu', padding='same')(x)
+    x = keras.layers.Conv2DTranspose(64, (2, 2), strides=(2, 2), padding='same')(x)
+    x = keras.layers.Concatenate()([x, c1_residue])
+    x = keras.layers.Conv2D(64, (3, 3), activation='relu', padding='same')(x)
 
 
     outputs = keras.layers.Conv2D(num_classes, (1, 1), activation="sigmoid")(x)
@@ -87,18 +87,19 @@ def make_model(input_shape, num_classes):
 model = make_model(input_shape=image_shape, num_classes=1)
 #keras.utils.plot_model(model, show_shapes=True) #Making the .png of a model
 
+
 #Model Config
 epochs = 50
-#Saving as *.weights.h5 according to Keras3 recommendation
-#https://github.com/keras-team/keras-io/issues/1568
+#Saving as *.weights.keras according to Keras3 recommendation
+#https://github.com/keras-team/keras-io/issues/1568 - outdated?
 callbacks = [
-    keras.callbacks.ModelCheckpoint("teras.weights.h5", monitor='val_loss', verbose = 1, save_best_only = True, mode = 'min'),
+    keras.callbacks.ModelCheckpoint("teras.weights.keras", monitor='val_loss', verbose = 1, save_best_only = True, mode = 'min'),
     keras.callbacks.EarlyStopping(patience = 30, verbose = 1),
     ]
 model.compile(
     optimizer=keras.optimizers.legacy.Adam(1e-3),
     loss = "binary_crossentropy",
-    metrics=["accuracy"], #Maybe Loss is better?
+    metrics = ["accuracy"],
 )
 history = model.fit(
     images[train_ds],masks[train_ds],
@@ -122,8 +123,8 @@ plt.show()
 plt.clf() #matplotlib figure clearing
 acc = history_dict["accuracy"]
 val_acc = history_dict["val_accuracy"]
-plt.plot(epochs, acc, "bo", label="Training acc")
-plt.plot(epochs, val_acc, "b", label="Validation acc")
+plt.plot(epochs, acc, "bo", label = "Training acc")
+plt.plot(epochs, val_acc, "b", label = "Validation acc")
 plt.title("Training and validation accuracy")
 plt.xlabel("Epochs")
 plt.ylabel("Accuracy")

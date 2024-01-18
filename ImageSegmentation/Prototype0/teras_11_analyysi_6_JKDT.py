@@ -12,7 +12,7 @@ from tensorflow.keras import backend as K
 # Let's load the data:
 
 print("Ladataan tiedot...")
-opetus_ja_vastetiedot=pickle.load( open( "opetustiedot.p", "rb" ) )
+opetus_ja_vastetiedot=pickle.load( open( "ImageSegmentation/Data/opetustiedot.p", "rb" ) )
 print("...valmista!")
 
 # And illustrate its shape:
