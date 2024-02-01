@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
@@ -6,18 +7,46 @@ import pickle
 
 from tensorflow import keras
 
-opetus_ja_vastetiedot = pickle.load( open( "ImageSegmentation/Data/opetustiedot.p", "rb" ) )
+# Define directories for images and masks
+images_dir = "ImageSegmentation/Data/severstal-steel-defect-detection/train_images"
+masks_dir = "ImageSegmentation/Data/TrainMasks"
 
-images = opetus_ja_vastetiedot[0]
-masks = opetus_ja_vastetiedot[1]
+# List files in both directories
+image_files = [file for file in os.listdir(images_dir) if file.endswith('.jpg')][:50]
+mask_files = [file for file in os.listdir(masks_dir) if file.endswith('.jpg')][:50]
+
+# Ensure the lists are sorted for proper matching
+image_files.sort()
+mask_files.sort()
+
+# Initialize lists to store images and masks
+images = []
+masks = []
+
+# Load images and masks
+for image_file, mask_file in zip(image_files, mask_files):
+    image_path = os.path.join(images_dir, image_file)
+    mask_path = os.path.join(masks_dir, mask_file)
+
+    # Load images
+    image = plt.imread(image_path)
+    images.append(image)
+
+    # Load masks
+    mask = plt.imread(mask_path)
+    masks.append(mask)
+
+# Convert lists to numpy arrays
+images = np.array(images)
+masks = np.array(masks)
 
 #Scaling
 images = images / 255 
 masks = masks / 255
 
 #Adding a dimension
-images = np.expand_dims(images, axis=3)
-masks = np.expand_dims(masks, axis=3)
+#images = np.expand_dims(images, axis=3)
+#masks = np.expand_dims(masks, axis=3)
 
 #CONFIG
 image_shape = images[0].shape
